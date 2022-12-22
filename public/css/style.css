@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Almarai:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    /* justify-content: space-between; */
+}
+
+.main_menu {
+    background-color: rgb(0, 0, 0);
+    font-family: 'Almarai', sans-serif;
+    color: rgb(255, 253, 253);
+    /* height: 50px; */
+}
+
+.main_menu a {
+    color: rgb(255, 253, 253);
+    line-height: 12px;
+
+}
+/* 
+button .navbar-toggler {
+
+   background-color:grey;
+    
+} */
+
+
+.fa-snowflake {
+    color: #007cff;
+    padding: 2px;
+    animation: rot 2s linear infinite;
+
+}
+
+@keyframes rot {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.main-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.main-header-left {
+    font-family: 'Almarai', sans-serif;
+    padding: 12px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 50rem;
+}
+
+.main-header-left p {
+    font-size: 1.5rem;
+    line-height: 12px;
+    padding: 0 12px;
+}
+
+.main-header-left h1 {
+    font-size: 3rem;
+
+    padding: 0 12px;
+}
+
+.sp-w {
+    color: #007cff;
+    font-weight: 500;
+}
+
+.main-header-left button {
+    border-radius: 2rem;
+    border: none;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    box-shadow: 0 8px 6px -6px #000;
+    width: 300px;
+}
+.main-header-left button  a{
+    text-decoration: none;
+    color: #000;
+}
+.main-header-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50rem;
+}
+
+footer {
+    background-color: #000;
+    height: 50px;
+    margin-top: auto;
+}
+
+footer p {
+    color: white;
+    font-family: 'Almarai', sans-serif;
+    line-height: 50px;
+    
+}
+
+
+
+
+
+/* weather-page */
+
+.weather-page {
+
+    margin-top: 30px;
+    border: 2px solid;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 8px 6px 10px rgb(212 224 251);
+    /* height: 40rem; */
+    margin-bottom: 30px;
+}
+
+.head-body {
+    display: flex;
+
+
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-size: 1.5rem;
+    border-radius: 12px;
+    line-height: 12px;
+    padding: 20px;
+    height: 45rem;
+
+}
+
+.right-content {
+    background-color: #f7f7f7;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    border-left: 2px solid #f7f7f7;
+    height: 500px;
+    margin-right: 0px;
+    border-radius: 12px;
+    padding: 20px;
+    height: 45rem;
+    line-height: 12px;
+
+}
+
+.head {
+    justify-content: space-between;
+
+
+}
+
+.box {
+    border-radius: 12px;
+    background-color: white;
+    margin: 15px;
+    height: 175px;
+    width: 250px;
+    padding: 12px;
+
+
+}
+
+.head-body {
+    display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.box img {
+    height: 111px;
+    width: 111px;
+    margin: 7px;
+
+}
+
+.span-unit {
+    color: #4a4a4a;
+    font-size: 1.3rem;
+    /* padding-left: 12px; */
+    padding-left: 12px;
+
+}

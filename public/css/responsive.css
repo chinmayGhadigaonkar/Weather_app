@@ -1,0 +1,18 @@
+@media (max-width:1000px) {
+
+    .right-content{
+        height: 85rem;
+    }
+
+
+
+    .box{
+        height: 180px;
+        width: 300px;
+        margin: 0px auto;
+        margin-top: 12px;
+
+    }
+
+
+}
